@@ -10,8 +10,8 @@ This repository is \*only\* for educational purposes and is intended for student
 3. change *db.php* credentials
 
 ## Login credentials
-email: dlozic@tvz.hr
-password: tvz
+email: mcerovski@tvz.hr
+password: mcerovski
 
 ## Screenshots
 ![login](img/login.png)
