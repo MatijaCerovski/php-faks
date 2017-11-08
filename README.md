@@ -9,7 +9,7 @@ This repository is \*only\* for educational purposes and is intended for student
 2. import *import.sql* file to the database
 3. change *db.php* credentials
 
-## Login credentials
+## Login credentials!
 email: mcerovski@tvz.hr
 password: mcerovski
 
