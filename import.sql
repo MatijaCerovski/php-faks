@@ -22,7 +22,8 @@ VALUES
     `brand` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
     `name` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
     `price` decimal(6,2) NOT NULL,
-    `stock` int(11) NOT NULL DEFAULT '0'
+    `stock` int(11) NOT NULL DEFAULT '0',
+    PRIMARY KEY (`id`)
   ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
   --

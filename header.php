@@ -11,6 +11,9 @@ $header = <<<EOT
       <li class="nav-item">
         <a class="nav-link" href="phones.php">Phones</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="api.php">API</a>
+      </li>
     </ul>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
