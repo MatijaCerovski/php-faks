@@ -38,7 +38,10 @@ $phones = $stmt->fetchAll();
           <td><?= $phone['name'] ?></td>
           <td><?= $phone['price'] ?></td>
           <td><?= $phone['stock'] ?></td>
-          <td><a href="edit_phone.php?id=<?= $phone['id'] ?>"><span class="oi oi-pencil"></span></a></td>
+          <td>
+            <a href="edit_phone.php?id=<?= $phone['id'] ?>"><span class="oi oi-pencil"></span></a>
+            <a href="delete_phone.php?id=<?= $phone['id'] ?>"><span class="oi oi-delete"></span></a>
+          </td>
         </tr>
         <?php endforeach; ?>
       </tbody>
