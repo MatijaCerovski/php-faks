@@ -1,6 +1,12 @@
 <?php
 require_once 'head.php';
 
+// redirect if not logged in
+if (!isset($_SESSION['user'])) {
+  header('Location: login.php');
+  die;
+}
+
 $url = 'http://taco-randomizer.herokuapp.com/random/';
 
 $data = file_get_contents($url);
